@@ -4,31 +4,38 @@ export function Skills() {
   const techs = [
     {
       name: "HTML",
-      image: "/img/html.png",
+      image:
+        "https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/html.png",
     },
     {
       name: "CSS",
-      image: "/img/css.png",
+      image:
+        "https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/css.png",
     },
     {
       name: "JavaScript",
-      image: "/img/js.png",
+      image:
+        "https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/js.png",
     },
     {
       name: "React",
-      image: "/img/react.png",
+      image:
+        "https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/react.png",
     },
     {
       name: "Tailwind",
-      image: "/img/tailwind.png",
+      image:
+        "https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/tailwind.png",
     },
     {
       name: "MySQL",
-      image: "/img/mysql.png",
+      image:
+        "https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/mysql.png",
     },
     {
       name: "Chat GPT",
-      image: "/img/chatgpt.png",
+      image:
+        "https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/chatgpt.png",
     },
   ];
 

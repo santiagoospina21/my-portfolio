@@ -205,7 +205,10 @@ export function Contact() {
 export function CatGift() {
   return (
     <div className="w-1/2">
-      <img src="/img/catty.gif" className="w-[30rem] ml-60"></img>
+      <img
+        src="https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/catty.gif"
+        className="w-[30rem] ml-60"
+      ></img>
     </div>
   );
 }
