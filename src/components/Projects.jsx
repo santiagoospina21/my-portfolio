@@ -11,8 +11,8 @@ export function Projects() {
       dataImg: "/img/Portfolio.JPG",
       tech: "React | JS | HTML | Tailwind",
       name: "My Portfolio",
-      gitHub: "",
-      linkPage: "",
+      gitHub: "https://github.com/santiagoospina21/my-portfolio.git",
+      linkPage: "https://porfolio-santy.netlify.app/",
     },
     {
       dataImg: "/img/Pokedex.JPG",

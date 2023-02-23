@@ -33,7 +33,7 @@ window.removeEventListener("scroll", handleScroll);
 export function GiftPika() {
   return (
     <div className="bg-teal-500">
-      <img src="/img/pikachu-running.gif"></img>
+      <img src="https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/pikachu-running.gif"></img>
     </div>
   );
 }
