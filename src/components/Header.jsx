@@ -108,7 +108,9 @@ export function Header() {
         </li>
 
         <li className={classes}>
-          <a>Resume</a>
+          <a href="https://drive.google.com/file/d/1YaD4UbTRyyLptoWOjB9wQArJGP2dJE4h/view">
+            Resume
+          </a>
         </li>
       </ul>
     </nav>
