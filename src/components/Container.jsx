@@ -27,7 +27,7 @@ export function PhotoProfile() {
   return (
     <div className="relative group">
       <img
-        src="/img/foto3.jpg"
+        src="https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/foto3.JPG"
         alt="Imagen circular"
         className=" 2xl:absolute  2xl:top-8 2xl:right-72 2xl:left-0    2xl:z-10  xl:absolute xl:top-40 xl:left-32 xl:z-10 2 xl:rounded-lg 2xl:w-6/12 xl:w-11/12  2xl:m-4 2xl:mt-52 2xl:ml-20 2xl:shadow-lg   animate__animated animate__fadeInRight   "
       ></img>

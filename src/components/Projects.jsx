@@ -8,56 +8,64 @@ export function Projects() {
   // datos de los proyectos
   const projects = [
     {
-      dataImg: "/img/Portfolio.JPG",
+      dataImg:
+        "https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/Portfolio.JPG",
       tech: "React | JS | HTML | Tailwind",
       name: "My Portfolio",
       gitHub: "https://github.com/santiagoospina21/my-portfolio.git",
-      linkPage: "https://porfolio-santy.netlify.app/",
+      linkPage: "https://portfolio-santy.netlify.app/",
     },
     {
-      dataImg: "/img/Pokedex.JPG",
+      dataImg:
+        "https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/Pokedex.JPG",
       tech: "JS | HTML | CSS | API Rest",
       name: "Pokedex Pokemon",
       gitHub: "https://github.com/santiagoospina21/pokedex-santy.git",
       linkPage: "https://pokedex-santy.netlify.app",
     },
     {
-      dataImg: "/img/Forkify.JPG",
+      dataImg:
+        "https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/Forkify.JPG",
       tech: "JS | HTML | CSS | API Rest",
       name: "Forkify Recipes",
       gitHub: "https://github.com/santiagoospina21/forkify-project.git",
       linkPage: "https://forkify-santy.netlify.app",
     },
     {
-      dataImg: "/img/Mapty.JPG",
+      dataImg:
+        "https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/Mapty.JPG",
       tech: "JS | HTML | CSS |API Rest",
       name: "Mapty Workout",
       gitHub: "https://github.com/santiagoospina21/mapty-santy.git",
       linkPage: "https://santy-mapty.netlify.app",
     },
     {
-      dataImg: "/img/BankistWeb.JPG",
+      dataImg:
+        "https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/BankistWeb.JPG",
       tech: "JS | HTML | CSS",
       name: "Bankist Web",
       gitHub: "https://github.com/santiagoospina21/Bankist_Web.git",
       linkPage: "https://bankistweb-santy.netlify.app",
     },
     {
-      dataImg: "/img/BankistApp.JPG",
+      dataImg:
+        "https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/BankistApp.JPG",
       tech: "JS | HTML | CSS",
       name: "Bankist App",
       gitHub: "https://github.com/santiagoospina21/Bankist_App.git",
       linkPage: "https://bankist-app-santy.netlify.app",
     },
     {
-      dataImg: "/img/PigGame.JPG",
+      dataImg:
+        "https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/PigGame.JPG",
       tech: "JS | HTML | CSS",
       name: "Pig Game",
       gitHub: "https://github.com/santiagoospina21/pig-game.git",
       linkPage: "https://pig-game-santy.netlify.app",
     },
     {
-      dataImg: "/img/MyNumber.JPG",
+      dataImg:
+        "https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/MyNumber.JPG",
       tech: "JS | HTML | CSS",
       name: "Guest my Number",
       gitHub: "https://github.com/santiagoospina21/guess-my-number.git",
