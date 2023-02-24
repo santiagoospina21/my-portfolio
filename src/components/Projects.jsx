@@ -84,8 +84,8 @@ export function Projects() {
   };
 
   return (
-    <div className="container -ml-20 lg:pt-12 lg:px-56 h-screen">
-      <h1 className="font-mono text-center mb-14 text-4xl font-bold">
+    <div className="container 2xl:-ml-20  lg:pt-12 2xl:px-56 xl:pl-56 max-md:px-0 max-md:pl-0 xl:pr-0  h-screen">
+      <h1 className="font-mono text-center mb-14 text-4xl font-bold max-md:text-xl max-md:ml-[-20rem]">
         My Projects
       </h1>
       <Slider {...settings}>
@@ -106,8 +106,11 @@ export function Projects() {
 
 function Project({ dataImg, tech, name, gitHub, linkPage }) {
   return (
-    <div className="mt-10 ml-10 mb-10 project-card ">
-      <div className="rounded-lg shadow-lg bg-white 2xl:w-[19rem] xl:w-[15rem] hover:-translate-y-2 transition-all duration-200  ">
+    <div className="2xl:mt-10 2xl:ml-10 max-md:mt-1 xl:ml-8 2xl:mb-10 xl:mb-10 project-card ">
+      <div
+        href={linkPage}
+        className="rounded-lg shadow-lg bg-white 2xl:w-[19rem] xl:w-[15rem] max-md:w-[10rem] hover:-translate-y-2 transition-all duration-200  "
+      >
         <a>
           <img className="rounded-t-lg" src={dataImg} alt="" />
         </a>

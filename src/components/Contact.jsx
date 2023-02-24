@@ -207,7 +207,7 @@ export function CatGift() {
     <div className="w-1/2">
       <img
         src="https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/catty.gif"
-        className="w-[30rem] ml-60"
+        className="2xl:w-[30rem] xl:w-[23rem] 2xl:ml-60 xl:ml-20 xl:mt-3 "
       ></img>
     </div>
   );
@@ -215,7 +215,7 @@ export function CatGift() {
 
 export function ContactHi() {
   return (
-    <div className="font-mono text-center   text-4xl mb-40 -ml-48  mt-16 font-bold">
+    <div className="font-mono text-center   text-4xl mb-40 2xl:-ml-48  xl:-ml-16  2xl:mt-16 xl:mt-6 font-bold">
       <h1>Contact me!</h1>
     </div>
   );

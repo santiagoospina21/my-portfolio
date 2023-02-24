@@ -41,7 +41,7 @@ export function Skills() {
 
   return (
     <div>
-      <h1 className="font-mono text-center mb-14 mr-[10rem] text-4xl p-10 font-bold">
+      <h1 className="font-mono text-center mb-14 2xl:mr-[10rem] xl:mr-28 text-4xl p-10 font-bold">
         Skills
       </h1>
 
@@ -49,11 +49,11 @@ export function Skills() {
         <div>
           <img
             src="https://topdevs.org/images/site/services/webdev/hero-bg.svg"
-            className="w-[30rem] pt-[10rem]"
+            className="2xl:w-[30rem] xl:w-96 2xl:pt-[10rem] xl:pt-16 "
           ></img>
         </div>
         <div>
-          <h2 className="font-mono  mb-14 text-3xl p-10 pl-[22rem] font-bold ">
+          <h2 className="font-mono  2xl:mb-14 text-3xl p-10 2xl:pl-[22rem] xl:pl-52 font-bold ">
             Web Development
           </h2>
           <div className="flex flex-wrap space-x-7">
@@ -66,7 +66,7 @@ export function Skills() {
               <Tech key={i} name={tech.name} image={tech.image} />
             ))}
           </div>
-          <div className=" pl-[15rem] pt-[7rem] ">
+          <div className=" 2xl:pl-[15rem] 2xl:pt-[7rem] xl:pl-20 xl:pt-20">
             <ul className="space-y-2 fontArsenal text-2xl ">
               <li className="before:content-['▹'] flex before:mr-3 before:text-accent before:block ">
                 Building responsive apps in React.js
@@ -104,7 +104,7 @@ function Tech({ name, image, i }) {
   }
 
   return (
-    <div className=" contenedor relative bg-white rounded-full h-24 w-24 mt-5 shadow ml-56 flex items-center justify-center">
+    <div className=" contenedor relative bg-white rounded-full 2xl:h-24 2xl:w-24  xl:h-20 xl:w-20 mt-5 shadow 2xl:ml-56 xl:ml-32 flex items-center justify-center">
       <img
         ref={imageRef}
         src={image}
