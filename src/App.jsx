@@ -21,7 +21,7 @@ function App() {
       </div>
 
       <div className="2xl:w-auto xl:w-auto max-xl:w-auto  ">
-        {/* <section
+        <section
           id="about"
           className="mb-4 2xl:w-auto 2xl:h-screen  2xl:pl-96  xl:pl-96 max-md:pl-36 "
         >
@@ -32,7 +32,7 @@ function App() {
           <div className=" 2xl:inline-block 2xl:w-1/2 2xl:h-700 xl:w-1/3  xl:inline-block max-md:block  ">
             <PhotoProfile></PhotoProfile>
           </div>
-        </section> */}
+        </section>
 
         <section
           id="projects"
@@ -41,7 +41,7 @@ function App() {
           <Projects />
         </section>
 
-        {/* <section
+        <section
           id="skills"
           className="  bg-teal-100  2xl:pl-96 xl:pl-72 h-screen pt-10"
         >
@@ -61,7 +61,7 @@ function App() {
 
         <footer className="bg-teal-500 mx-auto   md:px-28 lg:px-20 xl:px-0 font-mono text-center hover:text-white">
           <a className="ml-60 "> Design & Built by Santiago Ospina</a>
-        </footer> */}
+        </footer>
         <Email />
       </div>
     </main>
