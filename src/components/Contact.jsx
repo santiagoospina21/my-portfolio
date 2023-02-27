@@ -53,7 +53,7 @@ export function Contact() {
 
   return (
     <>
-      <div className="block p-6 rounded-lg shadow-lg bg-white max-w-md w-1/2 h-96 max-md:pl-10 max-md:w-64 ">
+      <div className="block p-6 rounded-lg shadow-lg bg-white max-w-md w-1/2 h-96 max-md:px-12 max-md:w-64 ">
         <form
           className="max-md:w-40"
           onSubmit={(e) => {
