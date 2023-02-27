@@ -53,14 +53,15 @@ export function Contact() {
 
   return (
     <>
-      <div className="block p-6 rounded-lg shadow-lg bg-white max-w-md w-1/2 h-96 ">
+      <div className="block p-6 rounded-lg shadow-lg bg-white max-w-md w-1/2 h-96 max-md:pl-10 max-md:w-64 ">
         <form
+          className="max-md:w-40"
           onSubmit={(e) => {
             sendEmail(e);
             resetStates(e);
           }}
         >
-          <div className="Fm-group mb-6">
+          <div className="Fm-group mb-6 ">
             <input
               value={name}
               onChange={(e) => {
@@ -207,7 +208,7 @@ export function CatGift() {
     <div className="w-1/2">
       <img
         src="https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/catty.gif"
-        className="2xl:w-[30rem] xl:w-[23rem] 2xl:ml-60 xl:ml-20 xl:mt-3  "
+        className="2xl:w-[30rem] xl:w-[23rem] 2xl:ml-60 xl:ml-20 xl:mt-3  max-md:pt-5 max-md:ml-14"
       ></img>
     </div>
   );
@@ -215,7 +216,7 @@ export function CatGift() {
 
 export function ContactHi() {
   return (
-    <div className="font-mono text-center   text-4xl max-md:text-2xl 2xl:mb-40 xl:mb-20 xl:mt-8 max-md:mb-10 2xl:-ml-48  xl:-ml-16  2xl:mt-16  font-bold">
+    <div className="font-mono text-center   text-4xl max-md:text-2xl 2xl:mb-40 xl:mb-20 xl:mt-8 max-md:mb-10 2xl:-ml-48  xl:-ml-16  2xl:mt-16 max-md:pl-16 max-md:pt-2  font-bold">
       <h1>Contact me!</h1>
     </div>
   );

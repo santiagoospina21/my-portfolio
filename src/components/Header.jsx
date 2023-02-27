@@ -1,33 +1,12 @@
 import { VscGithubInverted } from "react-icons/vsc";
 import { GrLinkedin, GrMail } from "react-icons/gr";
 
-window.addEventListener("load", function () {
+/* window.addEventListener("load", function () {
   const lis = document.querySelectorAll("ul li");
   lis[0].classList.add("bg-teal-700");
   document.querySelector("#about").scrollIntoView({ behavior: "smooth" });
 });
-
-const handleScroll = () => {
-  const sections = document.querySelectorAll("section");
-  const navLinks = document.querySelectorAll("nav ul li a");
-
-  sections.forEach((section, index) => {
-    const sectionTop = section.offsetTop;
-    const sectionHeight = section.clientHeight;
-
-    if (window.pageYOffset >= sectionTop - sectionHeight / 3) {
-      navLinks.forEach((navLink) => {
-        navLink.classList.remove("active");
-      });
-
-      navLinks[index].classList.add("active");
-    }
-  });
-};
-
-window.addEventListener("scroll", handleScroll);
-
-window.removeEventListener("scroll", handleScroll);
+ */
 
 export function GiftPika() {
   return (
@@ -45,8 +24,9 @@ export function Header() {
     const lis = document.querySelectorAll("ul li");
 
     lis.forEach((li) => li.classList.remove("bg-teal-700"));
-    e.target.parentNode.className =
-      "bg-teal-700 mb-12 p-2 hover::scale-110 text-line ";
+    /* e.target.parentNode.className =
+      "bg-teal-700 mb-12 p-2 hover::scale-110 text-line "; */
+    e.target.parentNode.className = " mb-12 p-2 hover::scale-110 text-line ";
   }
 
   return (
@@ -119,8 +99,15 @@ export function Header() {
 export function RedIcons() {
   return (
     <div className="flex flex-row max-md:flex-col   ml-5   space-x-10 max-md:space-x-0 max-md:space-y-4 max-md:text-2xl 2xl:text-4xl xl:text-2xl 2xl:mt-16 xl:mt-5 max-md:mt-5 max-md:ml-8  hover:cursor-pointer">
-      <VscGithubInverted /> <GrLinkedin />
-      <GrMail />
+      <a href="https://github.com/santiagoospina21">
+        <VscGithubInverted />
+      </a>
+      <a href="https://www.linkedin.com/in/santiago-ospina21/">
+        <GrLinkedin />
+      </a>
+      <a href="mailto:ing.santiagoospina@gmail.com">
+        <GrMail />
+      </a>
     </div>
   );
 }

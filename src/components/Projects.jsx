@@ -85,7 +85,7 @@ export function Projects() {
 
   return (
     <div className="container 2xl:-ml-20  xl:pt-4 2xl:px-56 xl:pl-56 max-md:px-0 max-md:pl-0 xl:pr-0  h-screen  max-md:block ">
-      <h1 className="font-mono text-center mb-14 text-4xl font-bold max-md:text-xl max-md:ml-40 max-md:mt-10">
+      <h1 className="font-mono text-center mb-14 text-4xl font-bold max-md:text-xl max-md:ml-20 max-md:mt-10">
         My Projects
       </h1>
       <Slider {...settings} className="max-md:w-80">

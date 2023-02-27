@@ -53,14 +53,17 @@ function App() {
           className="   2xl:pl-[30rem]  xl:pl-80 h-screen   max-md:pl-10    "
         >
           <ContactHi />
-          <div className="flex flex-wrap max-md:block">
+          <div className="flex flex-wrap max-md:block max-md:ml-16">
             <Contact />
             <CatGift />
           </div>
         </section>
 
-        <footer className="bg-teal-500 mx-auto   md:px-28 lg:px-20 xl:px-0 font-mono text-center hover:text-white">
-          <a className="ml-60 "> Design & Built by Santiago Ospina</a>
+        <footer className="bg-teal-500 mx-auto max-md:text-sm   md:px-28 lg:px-20 xl:px-0  font-mono text-center hover:text-white">
+          <a className="ml-60  max-md:ml-20 ">
+            {" "}
+            Design & Built by Santiago Ospina
+          </a>
         </footer>
         <Email />
       </div>

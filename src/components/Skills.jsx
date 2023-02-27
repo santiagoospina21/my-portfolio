@@ -53,7 +53,7 @@ export function Skills() {
           ></img>
         </div>
         <div>
-          <h2 className="font-mono  2xl:mb-14  text-3xl 2xl:p-10 max-md:pb-5 2xl:pl-[22rem] xl:pl-52 font-bold max-md:text-xl ">
+          <h2 className="font-mono  2xl:mb-14  text-3xl 2xl:p-10 max-md:pb-5 2xl:pl-[22rem] xl:pl-52 max-md:pl-10 max-md:pt-4 font-bold max-md:text-xl ">
             Web Development
           </h2>
           <div className="flex flex-wrap space-x-7">
