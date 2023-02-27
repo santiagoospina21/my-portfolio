@@ -31,7 +31,7 @@ window.removeEventListener("scroll", handleScroll);
 
 export function GiftPika() {
   return (
-    <div className="bg-teal-500 2xl:w-auto xl:w-60 ">
+    <div className="bg-teal-500 2xl:w-auto xl:w-52 ">
       <img src="https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/pikachu-running.gif"></img>
     </div>
   );
@@ -50,7 +50,7 @@ export function Header() {
   }
 
   return (
-    <nav className="bg-teal-500  text-center flex  items-center 2xl:h-4/6 xl:h-4/6 max-md:h-4/6 2xl:text-xl xl:text-lg max-md:text-xs 2xl:px-16 xl:px-16 max-md:px-3 xl:pt-20 2xl:pt-0 max-md:pt-10 fontRoboto   ">
+    <nav className="bg-teal-500  text-center flex  items-center 2xl:h-4/6 xl:h-4/6 max-md:h-4/6 2xl:text-xl xl:text-lg max-md:text-xs 2xl:px-16 xl:px-14 max-md:px-3 xl:pt-10 2xl:pt-0 max-md:pt-10 fontRoboto   ">
       <ul>
         <li className={classes}>
           <a
@@ -118,7 +118,7 @@ export function Header() {
 
 export function RedIcons() {
   return (
-    <div className="flex flex-row max-md:flex-col   ml-5   space-x-10 max-md:space-x-0 max-md:space-y-4 max-md:text-2xl text-4xl 2xl:mt-16 xl:mt-5 max-md:mt-5 max-md:ml-8  hover:cursor-pointer">
+    <div className="flex flex-row max-md:flex-col   ml-5   space-x-10 max-md:space-x-0 max-md:space-y-4 max-md:text-2xl 2xl:text-4xl xl:text-2xl 2xl:mt-16 xl:mt-5 max-md:mt-5 max-md:ml-8  hover:cursor-pointer">
       <VscGithubInverted /> <GrLinkedin />
       <GrMail />
     </div>

@@ -84,11 +84,11 @@ export function Projects() {
   };
 
   return (
-    <div className="container 2xl:-ml-20  lg:pt-12 2xl:px-56 xl:pl-56 max-md:px-0 max-md:pl-0 xl:pr-0  h-screen">
-      <h1 className="font-mono text-center mb-14 text-4xl font-bold max-md:text-xl max-md:ml-[-20rem]">
+    <div className="container 2xl:-ml-20  xl:pt-4 2xl:px-56 xl:pl-56 max-md:px-0 max-md:pl-0 xl:pr-0  h-screen  max-md:block ">
+      <h1 className="font-mono text-center mb-14 text-4xl font-bold max-md:text-xl max-md:ml-40 max-md:mt-10">
         My Projects
       </h1>
-      <Slider {...settings}>
+      <Slider {...settings} className="max-md:w-80">
         {projects.map((project, i) => (
           <Project
             key={i}
@@ -106,16 +106,16 @@ export function Projects() {
 
 function Project({ dataImg, tech, name, gitHub, linkPage }) {
   return (
-    <div className="2xl:mt-10 2xl:ml-10 max-md:mt-1 xl:ml-8 2xl:mb-10 xl:mb-10 project-card ">
+    <div className="2xl:mt-10 2xl:ml-10 max-md:mt-1 xl:ml-8 max-md:ml-28 2xl:mb-10 xl:mb-10 project-card ">
       <div
         href={linkPage}
-        className="rounded-lg shadow-lg bg-white 2xl:w-[19rem] xl:w-[15rem] max-md:w-[10rem] hover:-translate-y-2 transition-all duration-200  "
+        className="rounded-lg shadow-lg bg-white 2xl:w-[19rem] xl:w-[14.5rem] max-md:w-[5rem] hover:-translate-y-2 transition-all duration-200  "
       >
         <a>
           <img className="rounded-t-lg" src={dataImg} alt="" />
         </a>
-        <div className="p-4 flex flex-wrap  flex-col justify-between ml-2  ">
-          <h5 className="text-xs capitalize font-mono">{tech}</h5>
+        <div className="p-4 flex flex-wrap  flex-col justify-between ml-2 max-md:ml-0 ">
+          <h5 className="text-xs capitalize font-mono ">{tech}</h5>
 
           <div className="flex ml-auto  ">
             <a href={gitHub} target="_blank">
@@ -125,7 +125,9 @@ function Project({ dataImg, tech, name, gitHub, linkPage }) {
               <RxOpenInNewWindow className="hover:text-blue-500" />
             </a>
           </div>
-          <p className="text-gray-700  text-base mt-2   font-mono ">{name}</p>
+          <p className="text-gray-700  text-base max-md:text-xs mt-2   font-mono ">
+            {name}
+          </p>
         </div>
       </div>
     </div>
