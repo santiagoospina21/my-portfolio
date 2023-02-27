@@ -50,7 +50,7 @@ function App() {
 
         <section
           id="contact"
-          className="   2xl:pl-[30rem]  xl:pl-80 h-screen 2xl:pt-10 xl:pt-0 max-md:pl-10    "
+          className="   2xl:pl-[30rem]  xl:pl-80 h-screen   max-md:pl-10    "
         >
           <ContactHi />
           <div className="flex flex-wrap max-md:block">

@@ -215,7 +215,7 @@ export function CatGift() {
 
 export function ContactHi() {
   return (
-    <div className="font-mono text-center   text-4xl max-md:text-2xl 2xl:mb-40 xl:mb-20 max-md:mb-10 2xl:-ml-48  xl:-ml-16  2xl:mt-16 xl:mt-6 font-bold">
+    <div className="font-mono text-center   text-4xl max-md:text-2xl 2xl:mb-40 xl:mb-20 xl:mt-8 max-md:mb-10 2xl:-ml-48  xl:-ml-16  2xl:mt-16  font-bold">
       <h1>Contact me!</h1>
     </div>
   );
