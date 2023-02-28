@@ -87,7 +87,7 @@ export function Header() {
         </li>
 
         <li className={classes}>
-          <a href="https://drive.google.com/file/d/1YaD4UbTRyyLptoWOjB9wQArJGP2dJE4h/view">
+          <a href="https://drive.google.com/file/d/1ohgrUiWpJByjgaylHsOX6Uob57eSfApx/view?usp=sharing">
             Resume
           </a>
         </li>
