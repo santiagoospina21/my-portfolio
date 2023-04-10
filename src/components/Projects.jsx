@@ -9,6 +9,15 @@ export function Projects() {
   const projects = [
     {
       dataImg:
+        "https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/Crown-Clothing.JPG",
+      tech: "React | FireBase | Styled Comp ",
+      name: "E-Commerce Crown Clothing",
+      gitHub: "https://github.com/santiagoospina21/Crown-clothing-app.git",
+      linkPage: "https://crown-clothing-e-commerce-santy.netlify.app/",
+    },
+
+    {
+      dataImg:
         "https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/Portfolio.JPG",
       tech: "React | JS | HTML | Tailwind",
       name: "My Portfolio",

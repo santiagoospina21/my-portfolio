@@ -76,3 +76,7 @@ html {
 nav ul li a.active {
   color: red;
 }
+
+p span {
+  color: #3b82f6;
+}

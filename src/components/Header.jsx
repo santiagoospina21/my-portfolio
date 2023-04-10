@@ -106,6 +106,7 @@ export function RedIcons() {
         <GrLinkedin />
       </a>
       <a href="mailto:ing.santiagoospina@gmail.com">
+        {" "}
         <GrMail />
       </a>
     </div>
