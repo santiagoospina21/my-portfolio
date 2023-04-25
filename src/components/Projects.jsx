@@ -9,6 +9,15 @@ export function Projects() {
   const projects = [
     {
       dataImg:
+        "https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/Encriptador.JPG",
+      tech: "JS | CSS| HTML ",
+      name: "Text Encoder",
+      gitHub: "https://github.com/santiagoospina21/encriptador.git",
+      linkPage: "https://encriptador-santy.netlify.app/",
+    },
+
+    {
+      dataImg:
         "https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/Crown-Clothing.JPG",
       tech: "React | FireBase | Styled Comp ",
       name: "E-Commerce Crown Clothing",
