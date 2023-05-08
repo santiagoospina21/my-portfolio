@@ -19,7 +19,7 @@ export function Projects() {
     {
       dataImg:
         "https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/Crown-Clothing.JPG",
-      tech: "React | FireBase | Styled Comp | Redux | Stripe ",
+      tech: "React | FireBase | Redux | Stripe ",
       name: "E-Commerce Crown Clothing",
       gitHub: "https://github.com/santiagoospina21/Crown-clothing-app.git",
       linkPage: "https://crown-clothing-e-commerce-santy.netlify.app/",
