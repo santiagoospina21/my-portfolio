@@ -97,8 +97,8 @@ export function Projects() {
     infinite: false,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 1,
-    rows: 3,
+    slidesToScroll: 2,
+    rows: 2,
   };
 
   return (
