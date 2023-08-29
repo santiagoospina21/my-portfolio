@@ -9,6 +9,14 @@ export function Projects() {
   const projects = [
     {
       dataImg:
+        "https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/Movie-app.JPG",
+      tech: "React | FireBase | Redux",
+      name: "Movie App Sanflix",
+      gitHub: "https://github.com/santiagoospina21/movieReact-App.git",
+      linkPage: "https://santy-movies-app.netlify.app/",
+    },
+    {
+      dataImg:
         "https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/Encriptador.JPG",
       tech: "JS | CSS | HTML ",
       name: "Text Encoder",
