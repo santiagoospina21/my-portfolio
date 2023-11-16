@@ -53,7 +53,7 @@ export function Contact() {
 
   return (
     <>
-      <div className="block p-6 rounded-lg shadow-lg bg-white max-w-md w-1/2 h-96 max-md:px-12 max-md:w-64 ">
+      <div className="block p-6 rounded-lg shadow-lg bg-white max-w-md w-1/2 h-96 max-md:px-12 max-md:w-64 lg:ml-[10rem] md:ml-[20rem] xl:mb-0  md:mb-5">
         <form
           className="max-md:w-40"
           onSubmit={(e) => {
@@ -205,10 +205,10 @@ export function Contact() {
 
 export function CatGift() {
   return (
-    <div className="w-1/2">
+    <div className="w-1/2 ">
       <img
         src="https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/catty.gif"
-        className="2xl:w-[30rem] xl:w-[23rem] 2xl:ml-60 xl:ml-20 xl:mt-3  max-md:pt-5 max-md:ml-14"
+        className="2xl:w-[25rem] xl:w-[23rem] lg:w-[20rem]  2xl:ml-60 xl:ml-20 md:ml-44 xl:mt-3  max-md:pt-5 max-md:ml-14"
       ></img>
     </div>
   );
@@ -216,7 +216,7 @@ export function CatGift() {
 
 export function ContactHi() {
   return (
-    <div className="font-mono text-center   text-4xl max-md:text-2xl 2xl:mb-40 xl:mb-20 xl:mt-8 max-md:mb-10 2xl:-ml-48  xl:-ml-16  2xl:mt-16 max-md:pl-16 max-md:pt-2  font-bold">
+    <div className="font-mono text-center   text-4xl max-md:text-2xl 2xl:mb-40 xl:mb-40 xl:mt-8 max-md:mb-10 2xl:-ml-48   xl:-ml-16  md:ml-52   2xl:pt-16 xl:pt-10 md:pt-7 max-md:pl-16 max-md:pt-2  font-bold">
       <h1>Contact me!</h1>
     </div>
   );

@@ -33,40 +33,57 @@ export function Skills() {
         "https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/mysql.png",
     },
     {
-      name: "Chat GPT",
+      name: "Node.js",
       image:
-        "https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/chatgpt.png",
+        "https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/nodejs.png",
+    },
+    {
+      name: "Express",
+      image:
+        "https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/Express.png",
+    },
+    {
+      name: "Redux",
+      image:
+        "https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/redux.png",
+    },
+    {
+      name: "Firebase",
+      image:
+        "https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/firebase.png",
     },
   ];
 
   return (
     <div>
-      <h1 className="font-mono text-center mb-14 max-md:mb-5 2xl:mr-[10rem] xl:mr-28 text-4xl max-md:text-2xl p-10 font-bold">
+      <h1 className="font-mono text-center 2xl:mb-14 xl:mb-14 lg:mb-8 max-md:mb-5 2xl:mr-[27rem] xl:mr-28 2xl:ml-0 xl:ml-0  md:ml-52 text-4xl max-md:text-2xl p-10 font-bold">
         Skills
       </h1>
 
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap xl:flex-row sm:flex-col  ">
         <div>
           <img
             src="https://topdevs.org/images/site/services/webdev/hero-bg.svg"
-            className="2xl:w-[30rem] max-md:w-36 xl:w-96 2xl:pt-[10rem] xl:pt-0 max-md:ml-10 "
+            className="2xl:w-[26rem] max-md:w-36 xl:w-96 md:w-56 2xl:pt-[10rem] 2xl:ml-0 xl:ml-0 md:ml-[31rem] ]  xl:pt-0 max-md:ml-10 
+            2xl:mb-0 xl:mb-0 md:mb-8
+            "
           ></img>
         </div>
         <div>
-          <h2 className="font-mono  2xl:mb-14  text-3xl 2xl:p-10 max-md:pb-5 2xl:pl-[22rem] xl:pl-52 max-md:pl-10 max-md:pt-4 font-bold max-md:text-xl ">
+          <h2 className="font-mono  2xl:mb-14  text-3xl 2xl:p-10 max-md:pb-5 2xl:pl-[22rem] xl:pl-52 2xl:ml-0 xl:ml-0 md:ml-[30.5rem]   max-md:pl-10 max-md:pt-4 font-bold max-md:text-xl ">
             Web Development
           </h2>
-          <div className="flex flex-wrap space-x-7">
-            {techs.slice(0, 4).map((tech, i) => (
+          <div className="flex flex-wrap space-x-7 2xl:ml-0 xl:ml-0 lx:ml-[29rem] md:ml-[20rem]">
+            {techs.slice(0, 5).map((tech, i) => (
               <Tech key={i} name={tech.name} image={tech.image} />
             ))}
           </div>
-          <div className="flex flex-wrap space-x-7 ml-16 max-md:ml-10">
-            {techs.slice(4, 7).map((tech, i) => (
+          <div className="flex flex-wrap space-x-7 ml-16 max-md:ml-0 2xl:ml-16 xl:ml-0 lx:ml-[32rem] md:ml-[23rem]">
+            {techs.slice(5, 10).map((tech, i) => (
               <Tech key={i} name={tech.name} image={tech.image} />
             ))}
           </div>
-          <div className=" 2xl:pl-[15rem] 2xl:pt-[7rem] xl:pl-20  xl:pt-20 max-md:pt-4 ">
+          <div className=" 2xl:pl-[15rem] 2xl:pt-[7rem] xl:pl-20  xl:pt-20 md:pt-12 max-md:pt-4  2xl:ml-0 xl:ml-0 md:ml-[20rem]">
             <ul className="space-y-2 fontArsenal text-2xl max-md:text-xl ">
               <li className="before:content-['▹'] flex before:mr-3 before:text-accent before:block ">
                 Building responsive apps in React.js
@@ -104,7 +121,7 @@ function Tech({ name, image, i }) {
   }
 
   return (
-    <div className=" contenedor relative bg-white rounded-full 2xl:h-24 2xl:w-24  xl:h-20 xl:w-20 max-md:w-10 max-md:h-10 mt-5 shadow 2xl:ml-56 xl:ml-32 flex items-center justify-center">
+    <div className=" contenedor relative bg-white rounded-full 2xl:h-20 2xl:w-20  xl:h-20 xl:w-20 max-md:w-7 max-md:h-7 mt-5 shadow 2xl:ml-56 xl:ml-32 flex items-center justify-center">
       <img
         ref={imageRef}
         src={image}

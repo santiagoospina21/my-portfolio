@@ -1,6 +1,6 @@
 export function Container() {
   return (
-    <div className="  h-screen max-md:h-5/6  2xl:pt-80 xl:pt-32 max-md:pt-16 ">
+    <div className="  max-md:h-5/6  2xl:pt-20 xl:pl-52 lg:pl-52 md:pl-40 max-md:pl-24  md:pt-44 xl:pt-72   max-md:pt-20 ">
       <div className="mb-4 text-cyan-600 ">
         <h4 className="fontRoboto xl:text-lg 2xl:text-2xl max-md:text-sm ">
           Hi, my name is
@@ -27,13 +27,13 @@ export function Container() {
 
 export function PhotoProfile() {
   return (
-    <div className="relative group ">
+    <div className="2xl:relative 2xl:bottom-20 2xl:right-20 lg:relative lg:bottom-[-5rem]   flex justify-center items-center  ">
       <img
         src="https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/foto3.JPG"
         alt="Imagen circular"
-        className=" 2xl:absolute  2xl:top-8 2xl:right-72 2xl:left-0    2xl:z-10  xl:absolute xl:bottom-10 xl:left-40 xl:z-10 2 xl:rounded-lg 2xl:w-6/12 xl:w-11/12 max-md:w-1/2  2xl:m-4 2xl:mt-52 2xl:ml-20 2xl:shadow-lg   animate__animated animate__fadeInRight max-md:mt-10   max-md:ml-8   "
+        className="  xl:rounded-lg 2xl:w-7/12   xl:w-6/12 md:w-6/12 max-md:w-1/3  2xl:m-4 2xl:mt-52 2xl:ml-20 2xl:shadow-lg   animate__animated animate__fadeInRight max-md:mt-6   max-md:ml-24  "
       ></img>
-      <div className="2xl:absolute 2xl:top-24 2xl:right-64 2xl:left-0 2xl:z-0 2xl:h-[32rem] 2xl:w-96 2xl:ml-[7.5rem] 2xl:mt-[12.5rem] xl:h-[25rem] xl:w-[19rem]  xl:ml-[9rem] xl:mt-[15rem]    xl:absolute xl:top-0 xl:left-12      border-4 rounded  border-cyan-900  group-hover:translate-x-4 group-hover:translate-y-4 xl:hidden max-xl:hidden  2xl:block "></div>
+      {/*   <div className="2xl:absolute 2xl:top-24 2xl:right-64 2xl:left-0 2xl:z-0 2xl:h-[32rem] 2xl:w-96 2xl:ml-[7.5rem] 2xl:mt-[12.5rem] xl:h-[25rem] xl:w-[19rem]  xl:ml-[9rem] xl:mt-[15rem]    xl:absolute xl:top-0 xl:left-12      border-4 rounded  border-cyan-900  group-hover:translate-x-4 group-hover:translate-y-4 xl:hidden max-xl:hidden  2xl:block "></div> */}
     </div>
   );
 }

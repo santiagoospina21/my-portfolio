@@ -107,14 +107,18 @@ export function Projects() {
     slidesToShow: 3,
     slidesToScroll: 2,
     rows: 2,
+    arrows: false,
   };
 
   return (
-    <div className="container 2xl:-ml-20  xl:pt-4 2xl:px-56 xl:pl-56 max-md:px-0 max-md:pl-0 xl:pr-0  h-screen  max-md:block ">
-      <h1 className="font-mono text-center mb-14 text-4xl font-bold max-md:text-xl max-md:ml-20 max-md:mt-10">
+    <div className="container   xl:pt-20 md:pt-40 max-md:pt-10 max-md:pl-0   h-screen    ">
+      <h1 className="font-mono text-center xl:ml-[20rem] md:ml-[15rem] mb-14 text-4xl font-bold max-md:text-xl max-md:ml-20 max-md:mt-10 ">
         My Projects
       </h1>
-      <Slider {...settings} className="max-md:w-80">
+      <Slider
+        {...settings}
+        className="max-md:w-80  2xl:ml-[30rem] lg:ml-[19rem] md:ml-[15rem] max-md:ml-10 "
+      >
         {projects.map((project, i) => (
           <Project
             key={i}
@@ -132,13 +136,17 @@ export function Projects() {
 
 function Project({ dataImg, tech, name, gitHub, linkPage }) {
   return (
-    <div className="2xl:mt-10 2xl:ml-10 max-md:mt-1 xl:ml-8 max-md:ml-28 2xl:mb-10 xl:mb-10 project-card ">
+    <div className="2xl:mt-10 2xl:mb-10 2xl:mr-12  xl:mt-10    max-md:mt-1   sm:mb-10 project-card flex justify-center items-center  ">
       <div
         href={linkPage}
-        className="rounded-lg shadow-lg bg-white 2xl:w-[19rem] xl:w-[14.5rem] max-md:w-[5rem] hover:-translate-y-2 transition-all duration-200  "
+        className="rounded-lg shadow-lg bg-white 2xl:w-auto xl:w-auto md:w-3/4  max-md:w-[5rem] hover:-translate-y-2 transition-all duration-200  "
       >
         <a>
-          <img className="rounded-t-lg" src={dataImg} alt="" />
+          <img
+            className="rounded-t-lg 2xl:w-[22rem] xl:w-[14rem]"
+            src={dataImg}
+            alt="imagen_proyecto"
+          />
         </a>
         <div className="p-4 flex flex-wrap  flex-col justify-between ml-2 max-md:ml-0 ">
           <h5 className="text-xs capitalize font-mono ">{tech}</h5>

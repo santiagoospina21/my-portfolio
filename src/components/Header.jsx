@@ -1,16 +1,9 @@
 import { VscGithubInverted } from "react-icons/vsc";
 import { GrLinkedin, GrMail } from "react-icons/gr";
 
-/* window.addEventListener("load", function () {
-  const lis = document.querySelectorAll("ul li");
-  lis[0].classList.add("bg-teal-700");
-  document.querySelector("#about").scrollIntoView({ behavior: "smooth" });
-});
- */
-
 export function GiftPika() {
   return (
-    <div className="bg-teal-500 2xl:w-auto xl:w-52 ">
+    <div className="bg-teal-500 2xl:w-auto md:w-52 xl:w-52 ">
       <img src="https://raw.githubusercontent.com/santiagoospina21/my-portfolio/master/img/pikachu-running.gif"></img>
     </div>
   );
@@ -30,7 +23,7 @@ export function Header() {
   }
 
   return (
-    <nav className="bg-teal-500  text-center flex  items-center 2xl:h-4/6 xl:h-4/6 max-md:h-4/6 2xl:text-xl xl:text-lg max-md:text-xs 2xl:px-16 xl:px-14 max-md:px-3 xl:pt-10 2xl:pt-0 max-md:pt-10 fontRoboto   ">
+    <nav className="bg-teal-500  text-center flex  items-center justify-center 2xl:h-4/6 xl:h-4/6 md:h-4/6 max-md:h-4/6  2xl:text-xl xl:text-lg max-md:text-xs 2xl:px-16 xl:px-14 max-md:px-3 xl:pt-10 2xl:pt-0 max-md:pt-10 fontRoboto   ">
       <ul>
         <li className={classes}>
           <a
@@ -98,7 +91,7 @@ export function Header() {
 
 export function RedIcons() {
   return (
-    <div className="flex flex-row max-md:flex-col   ml-5   space-x-10 max-md:space-x-0 max-md:space-y-4 max-md:text-2xl 2xl:text-4xl xl:text-2xl 2xl:mt-16 xl:mt-5 max-md:mt-5 max-md:ml-8  hover:cursor-pointer">
+    <div className="flex flex-row max-md:flex-col justify-center    space-x-10 max-md:space-x-0 max-md:space-y-4 max-md:text-2xl 2xl:text-4xl  sm:text-4xl 2xl:mt-16 xl:mt-5 md:mt-5 max-md:mt-5 max-md:ml-8  hover:cursor-pointer">
       <a href="https://github.com/santiagoospina21">
         <VscGithubInverted />
       </a>
